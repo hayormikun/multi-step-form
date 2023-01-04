@@ -16,7 +16,11 @@ module.exports = {
         "lightGray": "#D6D9E6",
         "magnolia": "#F0F6FF",
         "alabaster": "#FAFBFF",
-      }
+      },
+
+      fontFamily: {
+        "ubuntu": ["Ubuntu", "san-serif"],
+      },
     },
   },
   plugins: [],
