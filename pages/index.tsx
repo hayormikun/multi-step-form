@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Form } from '../components/Form'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/assets/favicon-32x32.png" />
       </Head>
       <main className='text-gray-800 font-ubuntu'>
-        <h1>Hello world</h1>
+        <Form />
       </main>
     </>
   )

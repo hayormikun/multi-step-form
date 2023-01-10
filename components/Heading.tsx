@@ -1,10 +1,11 @@
+import React from 'react'
 
 type HeadingProps = {
     title: string
     description: string
 }
 
-export const Heading = ({ title, description }: HeadingProps) => {
+const Heading = ({ title, description }: HeadingProps) => {
   return (
     <div>
         <h1>{title}</h1>
@@ -12,3 +13,6 @@ export const Heading = ({ title, description }: HeadingProps) => {
     </div>
   )
 }
+
+export default Heading
+
