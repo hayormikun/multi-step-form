@@ -5,7 +5,7 @@ type SubContextProviderProps = {
 }
 
 const useValue = () => {
-  const [plan, setPlan] = useState(["monthly", "yearly"])
+  const [plan, setPlan] = useState("monthlyPlan")
 
   return {
     plan,
@@ -15,7 +15,7 @@ const useValue = () => {
 
 export const SubContext = createContext({} as ReturnType<typeof useValue>)
 
-export const StepContextProvider = ({ children }: SubContextProviderProps) => {
+export const SubContextProvider = ({ children }: SubContextProviderProps) => {
   return (
     <SubContext.Provider value={useValue()}>{children}</SubContext.Provider>
   )
