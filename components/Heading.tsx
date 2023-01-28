@@ -8,8 +8,8 @@ type HeadingProps = {
 const Heading = ({ title, description }: HeadingProps) => {
   return (
     <div>
-        <h1>{title}</h1>
-        <p>{description}</p>
+        <h1 className='mb-5 font-bold text-4xl text-purplishBlue'>{title}</h1>
+        <p className='text-coolGray text-lg'>{description}</p>
     </div>
   )
 }
