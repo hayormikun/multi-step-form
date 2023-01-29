@@ -21,7 +21,7 @@ export default function Home() {
             <link rel="icon" href="/assets/favicon-32x32.png" />
           </Head>
           <main className="bg-marineBlue flex justify-center text-gray-800 font-ubuntu w-full h-screen">
-            <div className="bg-white rounded-lg shadow-xl p-4 w-[65%] h-[37em] m-auto grid grid-cols-4">
+            <div className="bg-alabaster rounded-lg shadow-xl p-4 w-[65%] min-h-[600px] m-auto grid grid-cols-4">
               <div className="bg-sidenav col-span-1 p-9 h-full">
                 <SideNav />
               </div>

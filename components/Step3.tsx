@@ -15,7 +15,7 @@ export const Step3 = () => {
 
   const addOnItem = ({ itemId, title, description, price }: IAddOns) => {
     return (
-      <div key={itemId} onClick={()=>addItem(itemId)} className="border border-blue-700 bg-blue-100 rounded-md grid col-span-5 items-center">
+      <div key={itemId} onClick={()=>addItem(itemId)} className="border border-purplishBlue bg-blue-100 rounded-md h-[76px] grid col-span-5 items-center">
         <div className="col-span-1">
           <input type="checkbox" name="check" id="check" />
         </div>
